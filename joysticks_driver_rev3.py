@@ -65,7 +65,7 @@ def norm_pos(cur_val, min_val, max_val):
     '''
     return (2 * float(cur_val - min_val)/(max_val - min_val) - 1) * 100
 
-# testing
+# TESTING
 if __name__ == '__main__':
 
     joystick_r = Joystick_struct("right_joystick", 0, 1, 2)

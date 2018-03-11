@@ -1,3 +1,3 @@
 sudo modprobe uinput
-sudo python joysticks3.py
+sudo python standard_controls.py
 
